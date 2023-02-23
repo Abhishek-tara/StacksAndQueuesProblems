@@ -14,6 +14,13 @@
             queue.Enqueue(70);
             queue.Display();
 
+            Console.WriteLine("\n-------Dequeue-------------\n");
+
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.Display();
+
         }
     }
 }
